@@ -20,8 +20,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          Home
+          <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
+          <p className="text-white text-[18px] font-bold">
+            Arturs Langenfelds
+            <span className="sm:block hidden">| Frontend Developer</span>
+          </p>
         </Link>
       </div>
     </nav>
